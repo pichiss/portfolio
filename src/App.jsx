@@ -1,4 +1,5 @@
 import Header from './assets/header/Header'
+import Main from './assets/main/main'
 import './assets/common.css'
 import './assets/reset.css'
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <main></main>
+      <Main />
       <footer>
 
       </footer>

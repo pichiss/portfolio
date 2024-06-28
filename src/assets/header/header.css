@@ -1,10 +1,14 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
 nav{
     width: 100%;
     height: 76px;
     display: flex;
     justify-content: space-between;
     padding: 10px 52px;
-    position: sticky;
 }
 h1>a{
     font-family: "Parisienne";
@@ -22,28 +26,4 @@ h1>a{
     height: 2px;
     background-color: var(--font);
     margin-bottom: 7px;
-}
-section{
-    position: relative;
-    width: 100%;
-    padding: 30px;
-}
-h2{
-    font-family: "Archivo Black", sans-serif;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px var(--main);
-    font-size: 500px;
-    letter-spacing: -30px;
-    line-height: 360px;
-    text-align: center;
-}
-h3{
-    font-family: "Parisienne";
-    font-size: 128px;
-    color: var(--main);
-    -webkit-text-stroke: 1px var(--main);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }

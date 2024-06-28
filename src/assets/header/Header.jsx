@@ -13,14 +13,8 @@ function Navi() {
                 <div></div>
             </div>
         </nav>
-        <section>
-          <h2>PORT<br/>FOLIO</h2>
-          <h3>Mina Choi</h3>
-          <p>FRONT</p>
-        </section>
       </header>
     )
   }
   
   export default Navi
-  
