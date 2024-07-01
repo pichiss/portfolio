@@ -4,9 +4,9 @@ function About(){
         <section className="about">
             <article>
                 <div>
-                    <div className="face">내..얼굴...</div>
+                    <div className="face"><img src="../../../public/rakko.png" alt="rakko" /></div>
                 </div>
-                <div>
+                <div className="aboutTxt">
                     <h4>About me</h4>
                     <ul>
                         <li className="infoTit">1.Infomation

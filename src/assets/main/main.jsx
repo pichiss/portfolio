@@ -1,6 +1,8 @@
 import Intro from './Intro';
 import About from './About';
+import Skill from './Skill';
 import './main.css'
+import Project from './Project';
 
 function Main() {
     return (
@@ -11,6 +13,8 @@ function Main() {
             <div>2024</div>
         </div>
         <About />
+        <Skill />
+        <Project />
       </main>
     )
   }
