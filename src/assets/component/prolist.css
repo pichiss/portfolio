@@ -1,0 +1,71 @@
+.prolist {
+    display: flex;
+    flex: 1;
+    padding: 0 155px;
+}
+.homepage>img{
+    border-radius: 15px;
+    box-shadow: -10px 10px 10px 5px rgb(184, 184, 184);
+}
+.iconList{
+    display: flex;
+    justify-content: right;
+    gap: 45px;
+    padding: 15px 0;
+}
+.iconList>li>a>p{
+    font-family: "Jacques Francois", serif;
+    color: var(--main);
+    text-align: center;
+}
+.homeTxt{
+    width: 40%;
+    display: flex;
+}
+.homeTxt ul{
+    padding-left: 40px;
+}
+.protit{
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -7px;
+    position: relative;
+}
+.protit::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 400px;
+    background-color: var(--font);
+    top: 0;
+    left: -20px;
+}
+.procate{
+    color: var(--main);
+    opacity: 70%;
+    font-size: 50px;
+    font-family: "Jacques Francois", serif;
+    letter-spacing: -5px;
+
+}
+.prodate{
+    margin: 15px 0;
+    font-size: 14px;
+}
+.protext{
+    font-size: 14px;
+    white-space: pre;
+}
+
+.homeTxt p{
+    font-family: "Jacques Francois", serif;
+    font-size: 50px;
+}
+.homepage{
+    position: relative;
+}
+.mobile{
+    position: absolute;
+    top: 180px;
+    left: -110px;
+}

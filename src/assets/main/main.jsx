@@ -3,6 +3,8 @@ import About from './About';
 import Skill from './Skill';
 import './main.css'
 import Project from './Project';
+import Web from './Web';
+import Cloning from './Cloning';
 
 function Main() {
     return (
@@ -15,6 +17,9 @@ function Main() {
         <About />
         <Skill />
         <Project />
+        <Web />
+        <Cloning />
+
       </main>
     )
   }

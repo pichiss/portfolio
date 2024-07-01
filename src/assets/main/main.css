@@ -185,3 +185,28 @@ h3{
     top: 53%;
     transform: translate(-50%,-50%);
 }
+/* web start */
+.web h2{
+    font-size: 750px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.web h3{
+    font-size: 200px;
+    position: absolute;
+    right: 7%;
+    bottom: 6%;
+}
+.web p{
+    font-family: "Jacques Francois", serif;
+    font-size: 48px;
+    color: var(--font);
+    letter-spacing: -3px;
+    position: absolute;
+    right: 5%;
+    bottom: 29%;
+}
+
+/* Cloning start */
