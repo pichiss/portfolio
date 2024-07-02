@@ -1,7 +1,7 @@
 .prolist {
     display: flex;
     flex: 1;
-    padding: 0 155px;
+    padding: 76px 155px;
 }
 .homepage>img{
     border-radius: 15px;

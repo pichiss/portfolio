@@ -7,6 +7,7 @@ import Web from './Web';
 import Cloning from './Cloning';
 
 function Main() {
+  
     return (
       <main>
         <Intro />

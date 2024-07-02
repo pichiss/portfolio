@@ -1,0 +1,55 @@
+.footer h2{
+    font-size: 120px;
+    letter-spacing: -10px;
+    opacity: 100%;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer h3{
+    font-family: "Parisienne";
+    font-size: 128px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-text-stroke: 2px var(--main);
+}
+.footer h4{
+    font-family: "Archivo Black", sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px var(--main);
+    color: var(--main);
+    opacity: 50%;
+    letter-spacing: -10px;
+    font-size: 90px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer p{
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    position: absolute;
+    color: var(--main);
+    bottom: 0;
+    right: 0;
+}
+.footer div>a>img{
+    filter: drop-shadow(-5px 5px 5px grey);
+}
+.notion{
+    position: absolute;
+    width: 70px;
+    top: 33%;
+    right: 26%;
+}
+.git{
+    width: 100px;
+    position: absolute;
+    top: 43%;
+    right: 23%;
+    transform: rotate(-15deg);
+}

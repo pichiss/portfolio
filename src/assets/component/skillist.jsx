@@ -109,7 +109,11 @@ function SkillList(){
     <div className='skills'>
     {skillList.map(function(skill){
         return(
-        <figure className={skill.class}>
+        <figure 
+        className={skill.class} 
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        >
         <img src={skill.src} alt={skill.name} />
         <p>{skill.name}</p>
         <figcaption>{skill.text}</figcaption>
