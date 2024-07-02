@@ -6,7 +6,6 @@ import Footer from './assets/footer/footer'
 
 function App() {
 
-
   return (
     <>
       <Header />

@@ -104,8 +104,14 @@ CRUD 구현되어있습니다.`,
                                 </a>
                             </li>
                         </ul>
-                        <img src={pro.desk} alt={pro.name} className='desk' />
-                        <img src={pro.mobile} alt={pro.moAlt} className='mobile'/>
+                        <img src={pro.desk} alt={pro.name} className='desk'
+                        data-aos="fade-left"
+                        data-aos-duration="1000"/>
+                        <img src={pro.mobile} alt={pro.moAlt} className='mobile'
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        data-aos-delay="300"
+                        />
                     </div>
                     </section>
                 )
@@ -140,7 +146,9 @@ CRUD 구현되어있습니다.`,
                                 </a>
                             </li>
                         </ul>
-                        <img src={pro.desk} alt={pro.name} className='desk' />
+                        <img src={pro.desk} alt={pro.name} className='desk' 
+                        data-aos="fade-left"
+                        data-aos-duration="1000"/>
                     </div>
                     </section>
                 )

@@ -39,8 +39,8 @@ function About(){
                 </div>
             </article>
             <article>
-                <h2>MINACHOI</h2>
-                <h3>MinaChoi</h3>
+                <h2 data-aos="flip-left" data-aos-duration="1500">MINACHOI</h2>
+                <h3 data-aos="flip-left" data-aos-duration="1000">MinaChoi</h3>
             </article>
         </section>
         </>

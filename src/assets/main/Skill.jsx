@@ -4,8 +4,8 @@ function Skills(){
     return(
         <>
         <section className="skills">
-           <h2>SKILLS</h2>
-           <h3>Skills</h3>
+           <h2 data-aos="flip-left" data-aos-duration="1500">SKILLS</h2>
+           <h3 data-aos="flip-left" data-aos-duration="1000">Skills</h3>
            <SkillList />
         </section>
         </>

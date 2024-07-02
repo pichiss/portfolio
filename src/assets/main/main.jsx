@@ -7,7 +7,7 @@ import Web from './Web';
 import Cloning from './Cloning';
 
 function Main() {
-  
+ 
     return (
       <main>
         <Intro />
@@ -20,7 +20,6 @@ function Main() {
         <Project />
         <Web />
         <Cloning />
-
       </main>
     )
   }
