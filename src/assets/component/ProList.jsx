@@ -5,9 +5,9 @@ import Team4 from '../img/proimg/image 135.png';
 import per1 from '../img/proimg/image 111.png';
 import per2 from '../img/proimg/image 112.png';
 import toy from '../img/proimg/image 138.png';
-import mockup from '../img/proimg/Group 89.png'
+import mockupIcon from '../img/proimg/Group 89.png'
 import gitIcon from '../img/proimg/Group 90.png'
-import gopage from '../img/proimg/Group 91.png'
+import gopageIcon from '../img/proimg/Group 91.png'
 
 import './prolist.css'
 
@@ -25,13 +25,16 @@ footer, 관광안내입니다.`,
             use : ['react', 'vite', 'fiber'],
             desk : Team1,
             mobile : Team2,
-            moAlt : '고궁의 밤'
+            moAlt : '고궁의 밤',
+            mockup : '',
+            gitpage : 'https://github.com/JURAMII/Team_Period',
+            gopage : 'https://juramii.github.io/Team_Period/'
         },
         {id : 2,
             num : '02',
             name : '개발중',
             cate : 'Team project',
-            date : '2024.05.16~2024.06.18 (총 33일)',
+            date : '2024.07.08~2024.08.09 (총 33일)',
             text : '두번째 팀 프로젝트 개발중입니다.',
             desk : Team3,
             mobile : Team4,
@@ -49,6 +52,9 @@ footer, 관광안내입니다.`,
 새롭게 만들어보았습니다.`,
         use : ['node.js', 'mySql'],
         desk : per1,
+        mockup : '',
+        gitpage : 'https://github.com/JURAMII/Team_Period',
+        gopage : 'https://juramii.github.io/Team_Period/'
         },
         {id : 4,
         num : '02',
@@ -59,6 +65,9 @@ footer, 관광안내입니다.`,
 CRUD 구현되어있습니다.`,
         use : ['react'],
         desk : per2,
+        mockup : '',
+        gitpage : 'https://github.com/pichiss/dictionary',
+        gopage : 'https://pichiss.github.io/dictionary/'
             },
         {id : 5,
         num : '01',
@@ -68,7 +77,9 @@ CRUD 구현되어있습니다.`,
         text : `CRUD를 처음 배우고 익숙해지기위해
 만들게된 토이프로젝트입니다.`,
         use : ['react'],
-        desk : toy
+        desk : toy,
+        gitpage : 'https://github.com/JURAMII/Team_Period',
+        gopage : 'https://juramii.github.io/Team_Period/'
         }
     ]
 
@@ -89,17 +100,17 @@ CRUD 구현되어있습니다.`,
                         <div className='homepage'>
                         <ul className='iconList'>
                             <li>
-                                <a href=""><img src={mockup} alt="mockup" />
+                                <a href={pro.mockup} target='_blank'><img src={mockupIcon} alt="mockup" />
                                 <p>mockup</p>
                                 </a>
                             </li>
                             <li>
-                                <a href=""><img src={gitIcon} alt="gitIcon" />
+                                <a href={pro.gitpage} target='_blank'><img src={gitIcon} alt="gitIcon" />
                                 <p>github</p>
                                 </a>
                             </li>
                             <li>
-                                <a href=""><img src={gopage} alt="gopage" />
+                                <a href={pro.gopage} target='_blank'><img src={gopageIcon} alt="gopage" />
                                 <p>go page</p>
                                 </a>
                             </li>
@@ -131,17 +142,17 @@ CRUD 구현되어있습니다.`,
                         <div className='homepage'>
                         <ul className='iconList'>
                             <li>
-                                <a href=""><img src={mockup} alt="mockup" />
+                                <a href={pro.mockup} target='_blank'><img src={mockupIcon} alt="mockup" />
                                 <p>mockup</p>
                                 </a>
                             </li>
                             <li>
-                                <a href=""><img src={gitIcon} alt="gitIcon" />
+                                <a href={pro.gitpage} target='_blank'><img src={gitIcon} alt="gitIcon" />
                                 <p>github</p>
                                 </a>
                             </li>
                             <li>
-                                <a href=""><img src={gopage} alt="gopage" />
+                                <a href={pro.gopage} target='_blank'><img src={gopageIcon} alt="gopage" />
                                 <p>go page</p>
                                 </a>
                             </li>
