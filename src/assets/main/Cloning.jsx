@@ -12,8 +12,6 @@ import 'swiper/css/pagination';
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-
-
 function Cloning(){
   const siteList = [
     {
@@ -21,7 +19,7 @@ function Cloning(){
       img : domino,
       tit : '도미노피자',
       text : `2024.02.05~02.06
-      html, css 사용`,
+html, css 사용`,
       site : 'https://web.dominos.co.kr/main',
       page : 'https://pichiss.github.io/dominopre/'
     },
@@ -30,7 +28,7 @@ function Cloning(){
       img : biz,
       tit : '롯데 비즈카',
       text : `2024.02.07~02.08
-      html, css 사용`,
+html, css 사용`,
       site : 'https://business.lotterental.com/main.do',
       page : ''
     },
@@ -61,8 +59,8 @@ html, css 사용`,
       site : 'https://www.socar.kr/',
       page : ''
     },
-
   ]
+
 
     return(
 <section className='cloning'>
@@ -85,6 +83,7 @@ html, css 사용`,
           pagination={{
             clickable: true,
           }}
+          loop={true}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"

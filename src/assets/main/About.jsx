@@ -1,10 +1,12 @@
+import Rakko from '../img/rakko.png';
+
 function About(){
     return(
         <>
         <section className="about">
             <article>
-                <div>
-                    <div className="face"><img src="../../../public/rakko.png" alt="rakko" /></div>
+                <div className="faceWrap">
+                    <div className="face"><img src={Rakko} alt="rakko" /></div>
                 </div>
                 <div className="aboutTxt">
                     <h4>About me</h4>
