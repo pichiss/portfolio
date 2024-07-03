@@ -4,7 +4,7 @@ import Team3 from '../img/proimg/image 134.png';
 import Team4 from '../img/proimg/image 135.png';
 import per1 from '../img/proimg/image 111.png';
 import per2 from '../img/proimg/image 112.png';
-import toy from '../img/proimg/image 138.png';
+import toy from '../img/proimg/todo.png';
 import mockupIcon from '../img/proimg/Group 89.png'
 import gitIcon from '../img/proimg/Group 90.png'
 import gopageIcon from '../img/proimg/Group 91.png'
@@ -160,7 +160,7 @@ CRUD 구현되어있습니다.`,
                         <img src={pro.desk} alt={pro.name} className='desk' 
                         data-aos="fade-left"
                         data-aos-duration="1000"/>
-                    </div>
+                        </div>
                     </section>
                 )
             })}

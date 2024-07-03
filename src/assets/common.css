@@ -9,3 +9,6 @@
 body{
     background-color: #FFF2F2;
 }
+#root{
+    margin: 0 auto;
+}

@@ -1,4 +1,4 @@
-.skills{
+.skillist{
     display: grid;
     gap: 65px;
     grid-template-columns: repeat(5, 1fr);
@@ -13,21 +13,21 @@ padding: 100px 0 0 200px;
 figure{
     position: relative;
 }
-.skills img{
+.skillist img{
     width: 50px;
     position: absolute;
     left: -25px;
 }
-.skills p{
+.skillist p{
     font-family: "Jacques Francois", serif;
     font-size: 24px;
     color: var(--main);
     margin-left: 30px;
 }
-.skills figcaption{
+.skillist figcaption{
     font-family: "Inter", sans-serif;
     width: 230px;
-    height: 83px;
+    height: 86px;
     background-color: white;
     font-size: 14px;
     padding: 15px 10px;

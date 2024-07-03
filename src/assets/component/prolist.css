@@ -7,6 +7,14 @@
     border-radius: 15px;
     box-shadow: -10px 10px 10px 5px rgb(184, 184, 184);
 }
+.desk{
+    width: 960px;
+    height: 450px;
+}
+.mobile{
+    width: 250px;
+    height: 450px;
+}
 .iconList{
     display: flex;
     justify-content: right;

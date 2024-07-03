@@ -87,7 +87,7 @@ function SkillList(){
     class : 'item12',
     name : 'Figma',
     src : Figma,
-    text : '데스크톱, 모바일 UI/UX 시안을 작업 할 수 있으며, Local components를 활용할 수 있습니다.'
+    text : '데스크톱, 모바일 UI/UX 시안을 작업 할 수 있습니다.'
     },
     {id : 13,
     class : 'item13',
@@ -106,7 +106,7 @@ function SkillList(){
 
     return(
     <>
-    <div className='skills'>
+    <div className='skillist'>
     {skillList.map(function(skill){
         return(
         <figure 
