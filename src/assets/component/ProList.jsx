@@ -87,7 +87,7 @@ CRUD 구현되어있습니다.`,
         <>
             {teamList.map(function(pro){
                 return(
-                    <section className='prolist'>
+                    <section className='prolist' key={pro.id}>
                     <div className='homeTxt'>
                         <p>{pro.num}</p>
                         <ul>
@@ -129,7 +129,7 @@ CRUD 구현되어있습니다.`,
             })}
              {soloList.map(function(pro){
                 return(
-                    <section className='prolist'>
+                    <section className='prolist' key={pro.id}>
                     <div className='homeTxt'>
                         <p>{pro.num}</p>
                         <ul>

@@ -17,14 +17,83 @@ h1>a{
     color: var(--main);
     -webkit-text-stroke: 1px var(--main);
 }
-.ham{
-    cursor: pointer;
+.menu-trigger,
+.menu-trigger span {
+  display: inline-block;
+  transition: all 0.4s;
+  box-sizing: border-box;
 }
-.ham>div::after{
+.menu-trigger {
+  position: relative;
+  width: 50px;
+  height: 44px;
+}
+.menu-trigger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--main);
+  border-radius: 4px;
+}
+.menu-trigger span:nth-of-type(1) {
+  top: 0;
+}
+.menu-trigger span:nth-of-type(2) {
+  top: 20px;
+}
+.menu-trigger span:nth-of-type(3) {
+  bottom: 0;
+}
+/* 2th bar 사라지고,  1st 3rd bar 회전하며 X  */
+
+.menu-trigger.active-1 span:nth-of-type(1) {
+  transform: translateY(20px) rotate(-45deg);
+}
+.menu-trigger.active-1 span:nth-of-type(2) {
+  opacity: 0;
+}
+.menu-trigger.active-1 span:nth-of-type(3) {
+  transform: translateY(-20px) rotate(45deg);
+}
+.more{
+    width: 360px;
+    height: 100vh;
+    background-color: var(--main);
+    padding: 200px 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 90;
+}
+.show{
+    transition: 0.5s;
+    opacity: 100%;
+}
+.hide{
+    transition: 0.5s;
+    opacity: 0;
+}
+.more li{
+    margin: 30px 0;
+    text-align: center;
+}
+.more li>a{
+    font-family: "Jacques Francois", serif;
+    font-size: 36px;
+    color: #FFF;
+}
+.more li>a::after{
     content: '';
     display: block;
-    width: 35px;
+    width: 0%;
     height: 2px;
-    background-color: var(--font);
-    margin-bottom: 7px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+.more li>a:hover::after{
+    width: 100%;
 }

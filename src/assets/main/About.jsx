@@ -3,7 +3,7 @@ import Rakko from '../img/rakko.png';
 function About(){
     return(
         <>
-        <section className="about">
+        <section id='about' className="about">
             <article>
                 <div className="faceWrap">
                     <div className="face"><img src={Rakko} alt="rakko" /></div>

@@ -1,3 +1,45 @@
+.footer{
+    display: grid;
+    place-items: center;
+}
+.typing {
+    height: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+
+  }
+  
+  @keyframes typing {
+    from {
+      height: 0px;
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  /* .typing2 {
+    width: 22ch;
+    animation: typing 3s steps(40), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0px;
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  } */
 .footer h2{
     font-size: 120px;
     letter-spacing: -10px;

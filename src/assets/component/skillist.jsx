@@ -110,6 +110,7 @@ function SkillList(){
     {skillList.map(function(skill){
         return(
         <figure 
+        key={skill.id}
         className={skill.class} 
         data-aos="zoom-in"
         data-aos-duration="1000"

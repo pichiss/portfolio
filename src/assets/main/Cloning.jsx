@@ -63,7 +63,7 @@ html, css 사용`,
 
 
     return(
-<section className='cloning'>
+<section id='cloning' className='cloning'>
                     <div className='homeTxt'>
                         <p>01</p>
                         <ul>
@@ -79,6 +79,7 @@ html, css 사용`,
         autoplay={{
             delay: 3000,
             disableOnInteraction: false,
+            pauseOnMouseEnter : true
           }}
           pagination={{
             clickable: true,
@@ -90,7 +91,7 @@ html, css 사용`,
       >
         {siteList.map(function(site){
           return(
-            <SwiperSlide>
+            <SwiperSlide key={site.id}>
               <img src={site.img} alt={site.tit} />
               <div className='siteHover'>
                 <h5>{site.tit}</h5>

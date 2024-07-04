@@ -8,6 +8,7 @@
 
 body{
     background-color: #FFF2F2;
+    overflow-x: hidden;
 }
 #root{
     margin: 0 auto;

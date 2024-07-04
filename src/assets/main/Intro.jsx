@@ -11,7 +11,7 @@ function Intro(){
 
     return(
         <>
-        <section className="intro">
+        <section id="intro" className="intro">
             <h2 data-aos="fade-down-right"
             data-aos-duration="1500">PORT</h2>
             <h2 data-aos="fade-up-left"

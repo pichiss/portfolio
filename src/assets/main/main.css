@@ -1,9 +1,20 @@
+/* .container{
+    height:calc(100vh - 76px);
+    overflow-y: hidden;
+}
+.container::-webkit-scrollbar {
+    display: none;
+  }
+   */
 section{
     position: relative;
+    top: 0;
     width: 100%;
+    /* height: calc(100vh - 76px); */
     height: 100vh;
-    padding: 60px 52PX 0 52px;
+    padding: 80px 52PX 10px 52px;
     overflow: hidden;
+    transition: 0.5s;
 }
 h2{
     font-family: "Archivo Black", sans-serif;
@@ -21,10 +32,9 @@ h3{
     letter-spacing: -10px;
 }
 /* intro start */
-
 .intro h2{
-    padding-top: 20px;
-    font-size: 500px;
+    /* padding-top: 20px; */
+    font-size: 30em;
     letter-spacing: -30px;
     line-height: 360px;
     text-align: center;
@@ -139,8 +149,8 @@ h3{
     color: var(--main);
     letter-spacing: -15px;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 0px;
+    bottom: 0px;
 }
 .about h3{
     font-size: 128px;
@@ -153,6 +163,7 @@ h3{
     bottom: 6%;
 }
 /* skills start */
+
 .skills h2{
     font-size: 220px;
     position: absolute;
@@ -168,9 +179,6 @@ h3{
     top: 6%;
 }
 /* project start */
-.project{
-    position: relative;
-}
 .project h2{
     font-size: 350px;
     position: absolute;
@@ -306,4 +314,53 @@ h3{
 }
 .siteHover button>a:hover{
     color: var(--main);
+}
+
+/* 태블릿 반응형 */
+@media screen and (max-width:1200px){
+    section{
+        padding: 80px 20PX 10px 20px;
+    }
+    .intro h2{
+        font-size: 250px;
+        letter-spacing: -20px;
+        line-height: 350px;
+    }
+    .intro h3{
+        font-family: "Parisienne";
+        font-size: 100px;
+        position: absolute;
+        top: 38%;
+        left: 33%;
+        transform: translate(-50%,-50%);
+        -webkit-text-stroke: 2px var(--main);
+    }
+    .intro p{
+        font-family: "Archivo", sans-serif;
+        font-size: 24px;
+        position: absolute;
+        color: var(--main);
+        bottom: 0;
+        right: 0;
+    }
+    
+
+}
+
+/* 모바일 반응형 */
+@media screen and (max-width:360px){
+    .intro h2{
+        font-size: 100px;
+    }
+
+    .intro p{
+        font-family: "Archivo", sans-serif;
+        font-size: 24px;
+        position: absolute;
+        color: var(--main);
+        bottom: 0;
+        right: 0;
+    }
+    
+
 }
