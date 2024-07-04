@@ -3,17 +3,19 @@ import { useRef, useState } from 'react';
 
 
 function Navi() {
+  const [menu, setMenu] = useState(false);
   const [moreOpen , setMoreOpen] = useState(false);
   function openMore(){
     setMoreOpen(moreOpen => !moreOpen);
+    setMenu(menu => !menu);
   }
 
     return (
       <header>
         <nav>
             <h1><a href="#">Mina Choi</a></h1>
-            <div className='ham' onClick={openMore}>
-              <a className='menu-trigger' href="#">
+            <div className='ham'>
+              <a className={menu ? "menu-trigger active" : "menu-trigger"} href="#" onClick={openMore}>
                 <span></span>
                 <span></span>
                 <span></span>

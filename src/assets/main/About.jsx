@@ -9,9 +9,17 @@ function About(){
                     <div className="face"><img src={Rakko} alt="rakko" /></div>
                 </div>
                 <div className="aboutTxt">
-                    <h4>About me</h4>
+                    <h4
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    >About me</h4>
                     <ul>
-                        <li className="infoTit">1.Infomation
+                        <li
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="800"
+                        className="infoTit">1.Infomation
                             <ul>
                                 <li>최미나</li>
                                 <li>1993년 11월 10일 출생</li>
@@ -20,7 +28,11 @@ function About(){
                                 <li>eii1998@naver.com</li>
                             </ul>
                         </li>
-                        <li className="infoTit">2.Education
+                        <li 
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="1200"
+                        className="infoTit">2.Education
                             <ul>
                                 <li>인덕대학교 비서과 졸업<br />
                                 2012.02~2015.02</li>
@@ -31,7 +43,11 @@ function About(){
                                 2024.01~2024.08</li>
                             </ul>
                         </li>
-                        <li className="infoTit">3.Certificate
+                        <li
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="1800"
+                        className="infoTit">3.Certificate
                             <ul>
                                 <li>웹디자인기능사</li>
                                 <li>운전면허(2종보통)</li>
@@ -41,8 +57,8 @@ function About(){
                 </div>
             </article>
             <article>
-                <h2 data-aos="flip-left" data-aos-duration="1500">MINACHOI</h2>
-                <h3 data-aos="flip-left" data-aos-duration="1000">MinaChoi</h3>
+                <h2 data-aos="flip-left" data-aos-duration="1500"data-aos-delay="1800">MINACHOI</h2>
+                <h3 data-aos="flip-left" data-aos-duration="1000"data-aos-delay="1800">MinaChoi</h3>
             </article>
         </section>
         </>

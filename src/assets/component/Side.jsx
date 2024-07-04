@@ -1,4 +1,4 @@
-import './main.css'
+import './side.css'
 
 function Side() {
     return (
