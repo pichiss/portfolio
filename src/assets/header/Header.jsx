@@ -5,14 +5,16 @@ import { useRef, useState } from 'react';
 function Navi() {
   const [menu, setMenu] = useState(false);
   const [moreOpen , setMoreOpen] = useState(false);
-  function openMore(){
+  function openMore(e){
+    e.preventDefault(); // 기본 동작 방지
     setMoreOpen(moreOpen => !moreOpen);
     setMenu(menu => !menu);
   }
 
     return (
       <header>
-        <nav>
+
+<nav>
             <h1><a href="#">Mina Choi</a></h1>
             <div className='ham'>
               <a className={menu ? "menu-trigger active" : "menu-trigger"} href="#" onClick={openMore}>
@@ -32,6 +34,7 @@ function Navi() {
             <li><a href="#contact">CONTACT ME</a></li>
         </ul>
     </div>
+
       </header>
     )
   }

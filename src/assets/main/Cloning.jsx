@@ -55,7 +55,7 @@ html, css 사용`,
       img : ssoca,
       tit : '쏘카',
       text : `2024.02.07~02.08
-html, css 사용`,
+react 사용`,
       site : 'https://www.socar.kr/',
       page : ''
     },

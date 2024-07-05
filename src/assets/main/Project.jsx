@@ -8,7 +8,7 @@ function Project(){
            <h3
             data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="1000"
+            data-aos-duration="500"
            >Project</h3>
            <p>Desktop /  Tablet / Mobile</p>
         </section>

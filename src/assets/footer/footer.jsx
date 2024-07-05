@@ -17,7 +17,7 @@ function Footer(){
             <h3 className='typing2'>Mina Choi</h3>
             <p>010-7607-1998</p>
             <div>
-                <a href="https://github.com/pichiss/portfolio" target='_blank'><img src={gitB} alt="git icon" className='git'/></a>
+                <a href="https://github.com/pichiss" target='_blank'><img src={gitB} alt="git icon" className='git'/></a>
                 <a href="https://lumpy-indigo-956.notion.site/d11cc369b5a440c1910a8a2e36e14ff8?pvs=4" target='_blank'><img src={notion} alt="notion" className='notion'/></a>
             </div>
         </section>
