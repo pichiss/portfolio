@@ -11,6 +11,10 @@ function Intro(){
 
     return(
         <>
+        <div className='year'>
+            <div>2024</div>
+            <div>2024</div>
+        </div>
         <section id="intro" className="intro">
             <h2 data-aos="fade-down-right"
             data-aos-duration="1500">PORT</h2>
@@ -21,6 +25,7 @@ function Intro(){
      data-aos-duration="1500">Mina Choi</h3>
             <p>FRONT-END DEVELOPER & PUBLISHER</p>
         </section>
+
         </>
     )
 }

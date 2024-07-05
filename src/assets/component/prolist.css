@@ -71,9 +71,27 @@
 }
 .homepage{
     position: relative;
+    left: 0;
 }
 .mobile{
     position: absolute;
     top: 180px;
     left: -110px;
+}
+
+@media screen and (max-width:500px){
+    .homepage{
+        width: 100px;
+        height: auto;
+    }
+    .mobile{
+       width: 200px;
+       height: auto;
+    }
+    .iconList{
+        display: flex;
+        justify-content: right;
+        gap: 45px;
+        padding: 35px 0;
+    }
 }

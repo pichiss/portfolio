@@ -12,7 +12,7 @@ function About(){
                     <h4
                     data-aos="fade-down"
                     data-aos-easing="linear"
-                    data-aos-duration="1000"
+                    data-aos-duration="500"
                     >About me</h4>
                     <ul>
                         <li
@@ -31,7 +31,7 @@ function About(){
                         <li 
                         data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back"
-                        data-aos-delay="1200"
+                        data-aos-delay="900"
                         className="infoTit">2.Education
                             <ul>
                                 <li>인덕대학교 비서과 졸업<br />
@@ -46,7 +46,7 @@ function About(){
                         <li
                         data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back"
-                        data-aos-delay="1800"
+                        data-aos-delay="1000"
                         className="infoTit">3.Certificate
                             <ul>
                                 <li>웹디자인기능사</li>
@@ -57,8 +57,8 @@ function About(){
                 </div>
             </article>
             <article>
-                <h2 data-aos="flip-left" data-aos-duration="1500"data-aos-delay="1800">MINACHOI</h2>
-                <h3 data-aos="flip-left" data-aos-duration="1000"data-aos-delay="1800">MinaChoi</h3>
+                <h2 data-aos="flip-left" data-aos-duration="1000">MINACHOI</h2>
+                <h3 data-aos="flip-left" data-aos-duration="800">MinaChoi</h3>
             </article>
         </section>
         </>

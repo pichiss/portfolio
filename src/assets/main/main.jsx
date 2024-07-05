@@ -11,10 +11,6 @@ function Main() {
     return (
       <main>
         <Intro />
-        <div className='year'>
-            <div>2024</div>
-            <div>2024</div>
-        </div>
         <About />
         <Skill />
         <Project />

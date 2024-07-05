@@ -72,3 +72,39 @@ figure{
 .item14{
     grid-area: item14;
 }
+
+@media screen and (max-width:500px){
+    .skillist{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        "item6"
+        "item7"
+        "item8" 
+        "item9"
+        "item10"
+        "item11"
+        "item12"
+        "item13"
+        "item14"; 
+        padding: 60px 25px;
+    }
+    .skillist img{
+        display: none;
+    }
+    .skillist figcaption{
+        font-family: "Inter", sans-serif;
+        width: 320px;
+        height: 66px;
+        background-color: white;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
