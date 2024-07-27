@@ -81,22 +81,46 @@
 
 @media screen and (max-width:500px){
     .prolist {
-        display: flex;
-        flex: 1;
+        display: block;
         padding: 10px;
     }
     .desk{
         width: 300px;
         height: auto;
+        margin-left: 60px;
     }
     .mobile{
        width: 150px;
        height: auto;
+       top: 200px;
+       left: 0;
     }
     .iconList{
+        padding: 20px 0;
+        gap: 20px;
+        justify-content: center;
+    }
+    .iconList>li>a{
         display: flex;
-        justify-content: right;
-        gap: 45px;
-        padding: 35px 0;
+        gap: 10px;
+    }
+    .protit{
+        font-size: 30px;
+    }
+    .protit::before{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 100px;
+    }
+    .procate{
+        font-size: 30px;
+    }
+    .homeTxt{
+        width: 100%;
+        display: block;
+    }
+    .iconList>li>a>img{
+        width: 30px;
     }
 }

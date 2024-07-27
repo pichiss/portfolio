@@ -13,8 +13,7 @@ function Navi() {
 
     return (
       <header>
-
-<nav>
+  <nav>
             <h1><a href="#">Mina Choi</a></h1>
             <div className='ham'>
               <a className={menu ? "menu-trigger active" : "menu-trigger"} href="#" onClick={openMore}>
@@ -30,7 +29,7 @@ function Navi() {
             <li><a href="#about">ABOUT ME</a></li>
             <li><a href="#skills">SKILLS</a></li>
             <li><a href="#project">PROJECT</a></li>
-            <li><a href="#cloning">CLONING</a></li>
+            <li><a href="#web">CLONING</a></li>
             <li><a href="#contact">CONTACT ME</a></li>
         </ul>
     </div>

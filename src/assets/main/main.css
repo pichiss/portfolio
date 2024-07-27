@@ -1,17 +1,8 @@
-/* .container{
-    height:calc(100vh - 76px);
-    overflow-y: hidden;
-}
-.container::-webkit-scrollbar {
-    display: none;
-  } */
-  
 section{
     position: relative;
     top: 0;
     width: 100%;
     height: calc(100vh - 76px);
-    /* height: 100vh; */
     padding: 80px 52PX 10px 52px;
     overflow: hidden;
     transition: 0.5s;
@@ -351,14 +342,16 @@ h3{
     section{
         overflow: visible;
         overflow-x: hidden;
-        height: 90vh;
+        height: 100vh;
         padding: 20px 10px;
     }
-
+    .mainWrap{
+        height: 20%;
+    }
     .intro h2{
-        font-size: 100px;
+        font-size: 90px;
         letter-spacing: -10px;
-        line-height: 100px;
+        line-height: 10px;
         margin-top: 50%;
     }
     .intro h3{
@@ -443,5 +436,19 @@ h3{
     left: 35%;
     top: 55%;
     transform: translate(0);
+}
+
+.web h2{
+    font-size: 150px;
+}
+.web h3{
+    font-size: 50px;
+    right: 7%;
+    top: 53%;
+}
+.web p{
+    font-size: 40px;
+    right: 5%;
+    bottom: 46%;
 }
 }
