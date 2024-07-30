@@ -53,8 +53,8 @@ footer, 관광안내입니다.`,
         use : ['node.js', 'mySql'],
         desk : per1,
         mockup : '',
-        gitpage : 'https://github.com/JURAMII/Team_Period',
-        gopage : 'https://juramii.github.io/Team_Period/'
+        gitpage : 'https://github.com/pichiss/gicova',
+        gopage : 'https://pichiss.github.io/gicova/'
         },
         {id : 4,
         num : '04',
@@ -78,8 +78,8 @@ CRUD 구현되어있습니다.`,
 만들게된 토이프로젝트입니다.`,
         use : ['react'],
         desk : toy,
-        gitpage : 'https://github.com/JURAMII/Team_Period',
-        gopage : 'https://juramii.github.io/Team_Period/'
+        gitpage : 'https://github.com/pichiss/todo',
+        gopage : 'https://pichiss.github.io/todo/'
         }
     ]
 
@@ -99,11 +99,11 @@ CRUD 구현되어있습니다.`,
                     </div>
                         <div className='homepage'>
                         <ul className='iconList'>
-                            <li>
+                            {/* <li>
                                 <a href={pro.mockup} target='_blank'><img src={mockupIcon} alt="mockup" />
                                 <p>mockup</p>
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href={pro.gitpage} target='_blank'><img src={gitIcon} alt="gitIcon" />
                                 <p>github</p>
@@ -141,11 +141,11 @@ CRUD 구현되어있습니다.`,
                     </div>
                         <div className='homepage'>
                         <ul className='iconList'>
-                            <li>
+                            {/* <li>
                                 <a href={pro.mockup} target='_blank'><img src={mockupIcon} alt="mockup" />
                                 <p>mockup</p>
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href={pro.gitpage} target='_blank'><img src={gitIcon} alt="gitIcon" />
                                 <p>github</p>

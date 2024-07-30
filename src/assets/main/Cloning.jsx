@@ -30,7 +30,7 @@ html, css 사용`,
       text : `2024.02.07~02.08
 html, css 사용`,
       site : 'https://business.lotterental.com/main.do',
-      page : ''
+      page : 'https://pichiss.github.io/bizcar/'
     },
     {
       id : 3,
@@ -39,7 +39,7 @@ html, css 사용`,
       text : `2024.02.07~02.08
 html, css 사용`,
       site : 'https://scholarship.ktngtogether.com/index.do',
-      page : ''
+      page : 'https://pichiss.github.io/bizcar/ktng'
     },
     {
       id : 4,
@@ -57,7 +57,7 @@ html, css 사용`,
       text : `2024.02.07~02.08
 react 사용`,
       site : 'https://www.socar.kr/',
-      page : ''
+      page : 'https://pichiss.github.io/ssoca/'
     },
   ]
 
