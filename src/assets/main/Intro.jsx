@@ -17,9 +17,9 @@ function Intro(){
         </div>
         <section id="intro" className="intro">
             <div className="mainWrap">
-                <h2 data-aos="fade-down-right"
+                <h2 className="port" data-aos="fade-down-right"
                 data-aos-duration="1500">PORT</h2>
-                <h2 data-aos="fade-up-left"
+                <h2 className="folio" data-aos="fade-up-left"
                 data-aos-duration="1500">FOLIO</h2>
                 <h3 data-aos="fade-up"
                 data-aos-delay="1000"

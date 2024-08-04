@@ -24,13 +24,14 @@ h3{
 }
 /* intro start */
 .intro h2{
-    /* padding-top: 20px; */
-    font-size: 30rem;
+    font-size: 25vw;
     letter-spacing: -30px;
     line-height: 360px;
     text-align: center;
     opacity: 100%;
+    text-align: center;
 }
+
 .intro h3{
     font-family: "Parisienne";
     font-size: 128px;
@@ -333,37 +334,42 @@ h3{
         bottom: 0;
         right: 0;
     }
-    
-
 }
 
 /* 모바일 반응형 */
-@media screen and (max-width:500px){
-    section{
+@media screen and (max-width:768px){
+    #intro{
         overflow: visible;
         overflow-x: hidden;
         height: 100vh;
         padding: 20px 10px;
     }
-    .mainWrap{
-        height: 20%;
-    }
     .intro h2{
-        font-size: 90px;
+        position: absolute;
+        font-size: 25vw;
         letter-spacing: -10px;
-        line-height: 10px;
-        margin-top: 50%;
+    }
+    .intro .port{
+        top: 15%;
+        left: 10%;
+    }    
+    .intro .folio{
+        top: 45%;
+        left: 10%;
     }
     .intro h3{
         font-size: 50px;
         letter-spacing: -1px;
         left: 20%;
-        top: 50%;
+        top: 45%;
     }
     .intro p{
         font-size: 16px;
     }
 /* about */
+#about{
+    height: 100%;
+}
 .about article{
     flex-direction: column;
 }
@@ -379,7 +385,7 @@ h3{
     transform: translate(0);
 }
 .aboutTxt{
-    padding-left: 100px;
+    padding-left: 10%;
 }
 .about h4{
     font-size: 40px;
@@ -401,6 +407,10 @@ h3{
     bottom: 0%;
 }
 /* skill */
+.skills{
+    height: auto;
+    padding: 150px 0 0;
+}
 .skills h2{
     font-size: 120px;
     position: absolute;

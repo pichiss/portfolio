@@ -6,7 +6,7 @@ function Navi() {
   const [menu, setMenu] = useState(false);
   const [moreOpen , setMoreOpen] = useState(false);
   function openMore(e){
-    e.preventDefault(); // 기본 동작 방지
+    e.preventDefault();
     setMoreOpen(moreOpen => !moreOpen);
     setMenu(menu => !menu);
   }

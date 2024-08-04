@@ -99,9 +99,16 @@ h1>a{
     width: 100%;
 }
 
-@media screen and (max-width:500px){
+
+@media screen and (max-width:768px){
   nav{
     padding: 10px 20px;
+}
+.more{
+  visibility: hidden;
+}
+.show{
+  visibility: visible;
 }
 
 }

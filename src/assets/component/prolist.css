@@ -79,7 +79,8 @@
     left: -110px;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
+
     .prolist {
         display: block;
         padding: 10px;
