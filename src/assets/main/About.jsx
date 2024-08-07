@@ -56,7 +56,7 @@ function About(){
                     </ul>
                 </div>
             </article>
-            <article>
+            <article className='aboutFt'>
                 <h2 data-aos="flip-left" data-aos-duration="1000">MINACHOI</h2>
                 <h3 data-aos="flip-left" data-aos-duration="800">MinaChoi</h3>
             </article>

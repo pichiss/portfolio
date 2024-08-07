@@ -1,7 +1,7 @@
 import Team1 from '../img/proimg/image 148.png';
 import Team2 from '../img/proimg/image 149.png';
-import Team3 from '../img/proimg/image 134.png';
-import Team4 from '../img/proimg/image 135.png';
+import Team3 from '../img/proimg/image 150.png';
+import Team4 from '../img/proimg/image 151.png';
 import per1 from '../img/proimg/image 111.png';
 import per2 from '../img/proimg/image 112.png';
 import toy from '../img/proimg/todo.png';
@@ -32,10 +32,13 @@ footer, 관광안내입니다.`,
         },
         {id : 2,
             num : '02',
-            name : '개발중',
+            name : '캐치! 수학몬스터즈',
             cate : 'Team project',
-            date : '2024.07.08~2024.08.09 (총 33일)',
-            text : '두번째 팀 프로젝트 개발중입니다.',
+            date : '2024.07.08~2024.08.06 (총 30일)',
+            text : `두번째 팀 프로젝트 캐치! 수학몬스터즈입니다.
+디지털교과서로 학습하는 사이트입니다. 
+제가 맡은 부분은 서브탭메뉴 틀잡기, FAQ, 
+학습하기의 포인트샵,내정보, 1:1문의입니다`,
             desk : Team3,
             mobile : Team4,
             moAlt : '개발중'

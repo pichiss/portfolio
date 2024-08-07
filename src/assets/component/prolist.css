@@ -12,8 +12,11 @@
     height: 450px;
 }
 .mobile{
-    width: 250px;
+    width: 230px;
     height: 450px;
+    position: absolute;
+    top: 180px;
+    left: -110px;
 }
 .iconList{
     display: flex;
@@ -73,11 +76,6 @@
     position: relative;
     left: 0;
 }
-.mobile{
-    position: absolute;
-    top: 180px;
-    left: -110px;
-}
 
 @media screen and (max-width:768px){
 
@@ -86,15 +84,15 @@
         padding: 10px;
     }
     .desk{
-        width: 300px;
+        width: 80%;
         height: auto;
         margin-left: 60px;
     }
     .mobile{
-       width: 150px;
+       width: 25%;
        height: auto;
-       top: 200px;
-       left: 0;
+       top: 130px;
+       left: 20px;
     }
     .iconList{
         padding: 20px 0;
@@ -124,4 +122,18 @@
     .iconList>li>a>img{
         width: 30px;
     }
+}
+
+@media screen and (max-width:500px){
+    .mobile{
+        width: 40%;
+        height: auto;
+        top: 130px;
+        left: 20px;
+     }
+     .protext{
+        font-size: 14px;
+        white-space: normal;
+    }
+
 }
