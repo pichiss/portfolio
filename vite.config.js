@@ -16,9 +16,9 @@ export default defineConfig({
     },
 
     manifest: {
-      name: 'pwa',
-      short_name: 'pwa',
-      description: 'pwa',
+      name: `mina'portfolio`,
+      short_name: 'portfolio',
+      description: `mina'portfolio`,
       theme_color: '#ffffff',
     },
 

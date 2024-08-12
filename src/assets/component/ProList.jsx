@@ -41,7 +41,9 @@ footer, 관광안내입니다.`,
 학습하기의 포인트샵,내정보, 1:1문의입니다`,
             desk : Team3,
             mobile : Team4,
-            moAlt : '개발중'
+            moAlt : '캐치! 수학몬스터즈',
+            gitpage : 'https://github.com/pichiss/TeamMMs',
+            gopage : 'https://pichiss.github.io/TeamMMs/'
             }
     ]
     const soloList= [
