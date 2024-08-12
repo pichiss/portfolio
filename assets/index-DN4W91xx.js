@@ -47,7 +47,7 @@ Error generating stack: `+l.message+`
 footer, 관광안내입니다.`,use:["react","vite","fiber"],desk:mm,mobile:hm,moAlt:"고궁의 밤",mockup:"",gitpage:"https://github.com/JURAMII/Team_Period",gopage:"https://juramii.github.io/Team_Period/"},{id:2,num:"02",name:"캐치! 수학몬스터즈",cate:"Team project",date:"2024.07.08~2024.08.06 (총 30일)",text:`두번째 팀 프로젝트 캐치! 수학몬스터즈입니다.
 디지털교과서로 학습하는 사이트입니다. 
 제가 맡은 부분은 서브탭메뉴 틀잡기, FAQ, 
-학습하기의 포인트샵,내정보, 1:1문의입니다`,desk:gm,mobile:vm,moAlt:"개발중"}],t=[{id:3,num:"03",name:"지코바 사이트 리뉴얼",cate:"Persnal project",date:"2024.04.07~2024.04.22 (총 15일)",text:`개인프로젝트인 지코바 사이트 리뉴얼입니다.
+학습하기의 포인트샵,내정보, 1:1문의입니다`,desk:gm,mobile:vm,moAlt:"캐치! 수학몬스터즈",gitpage:"https://github.com/pichiss/TeamMMs",gopage:"https://pichiss.github.io/TeamMMs/"}],t=[{id:3,num:"03",name:"지코바 사이트 리뉴얼",cate:"Persnal project",date:"2024.04.07~2024.04.22 (총 15일)",text:`개인프로젝트인 지코바 사이트 리뉴얼입니다.
 기존의 지코바홈페이지에서 트렌드에 맞는 디자인으로
 새롭게 만들어보았습니다.`,use:["node.js","mySql"],desk:ym,mockup:"",gitpage:"https://github.com/pichiss/gicova",gopage:"https://pichiss.github.io/gicova/"},{id:4,num:"04",name:"프론트엔드 사전",cate:"Persnal project",date:"2024.05.03~2024.05.09 (총 7일)",text:`두번째 개인프로젝트인 프론트엔드 사전입니다.
 CRUD 구현되어있습니다.`,use:["react"],desk:wm,mockup:"",gitpage:"https://github.com/pichiss/dictionary",gopage:"https://pichiss.github.io/dictionary/"},{id:5,num:"05",name:"To do list",cate:"Toy project",date:"2024.04.26 (총 1일)",text:`CRUD를 처음 배우고 익숙해지기위해
