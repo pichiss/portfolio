@@ -74,12 +74,20 @@ react 사용`,
                         </ul>
                     </div>
                     <Swiper
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={30}
+        breakpoints={{
+          1200: {
+            slidesPerView: 3,
+            spaceBetween:10
+          }
+
+        }}
         autoplay={{
             delay: 3000,
             disableOnInteraction: false,
-            pauseOnMouseEnter : true
+            pauseOnMouseEnter : true,
+            
           }}
           pagination={{
             clickable: true,

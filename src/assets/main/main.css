@@ -102,7 +102,7 @@ h3{
 }
 .about h4{
     font-family: "Jacques Francois", serif;
-    font-size: 96px;
+    font-size: 4vw;
     color: var(--main);
     font-weight: 300;
     text-align: center;
@@ -137,7 +137,7 @@ h3{
     left: 10px;
 }
 .about h2{
-    font-size: 220px;
+    font-size: 12vw;
     color: var(--main);
     letter-spacing: -15px;
     position: absolute;
@@ -145,7 +145,7 @@ h3{
     bottom: 0px;
 }
 .about h3{
-    font-size: 128px;
+    font-size: 6vw;
     font-weight: 300;
     letter-spacing: -10px;
     color: var(--main);
@@ -172,51 +172,51 @@ h3{
 }
 /* project start */
 .project h2{
-    font-size: 350px;
+    font-size: 18vw;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
 .project h3{
-    font-size: 200px;
+    font-size: 12vw;
     position: absolute;
     left: 35%;
-    top: 25%;
+    top: 30%;
     transform: translate(-50%,-50%);
     letter-spacing: -15px;
 }
 .project p{
     font-family: "Jacques Francois", serif;
-    font-size: 48px;
+    font-size: 3vw;
     color: var(--font);
     position: absolute;
-    left: 70%;
-    top: 53%;
+    left: 75%;
+    top: 63%;
     transform: translate(-50%,-50%);
 }
 /* web start */
 .web h2{
-    font-size: 750px;
+    font-size: 40vw;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
 .web h3{
-    font-size: 200px;
+    font-size: 15vw;
     position: absolute;
     right: 7%;
     bottom: 6%;
 }
 .web p{
     font-family: "Jacques Francois", serif;
-    font-size: 48px;
+    font-size: 4vw;
     color: var(--font);
     letter-spacing: -3px;
     position: absolute;
     right: 5%;
-    bottom: 29%;
+    bottom: 30%;
 }
 
 /* Cloning start */
@@ -308,6 +308,12 @@ h3{
 }
 
 /* 태블릿 반응형 */
+@media screen and (max-width:1500px){
+    .face img{
+        width: 250px;
+        height: auto;
+    }
+}
 @media screen and (max-width:1200px){
     section{
         padding: 80px 20PX 10px 20px;
@@ -333,6 +339,18 @@ h3{
         color: var(--main);
         bottom: 0;
         right: 0;
+    }
+    .about h4{
+        font-size: 5vw;
+        margin-bottom: 80px;
+    }
+    .about div>ul{
+        flex-direction: column;
+        gap: 10px;
+        padding-right: 50px;
+    }
+    .about article>div{
+        width: 100%;
     }
 }
 
@@ -372,9 +390,6 @@ h3{
 }
 .about article{
     flex-direction: column;
-}
-.about article>div{
-    width: 100%;
 }
 .aboutFt{
     margin: 80px;

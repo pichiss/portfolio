@@ -18,7 +18,7 @@ function About(){
                         <li
                         data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back"
-                        data-aos-delay="800"
+                        data-aos-delay="700"
                         className="infoTit">1.Infomation
                             <ul>
                                 <li>최미나</li>
@@ -31,7 +31,7 @@ function About(){
                         <li 
                         data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back"
-                        data-aos-delay="900"
+                        data-aos-delay="800"
                         className="infoTit">2.Education
                             <ul>
                                 <li>인덕대학교 비서과 졸업<br />
@@ -46,7 +46,7 @@ function About(){
                         <li
                         data-aos="fade-zoom-in"
                         data-aos-easing="ease-in-back"
-                        data-aos-delay="1000"
+                        data-aos-delay="900"
                         className="infoTit">3.Certificate
                             <ul>
                                 <li>웹디자인기능사</li>
