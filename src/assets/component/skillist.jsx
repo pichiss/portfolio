@@ -99,7 +99,7 @@ function SkillList(){
     class : 'item14',
     name : 'Three.js',
     src : Three,
-    text : 'Camera, scene,light를 이용하여, 도형이나 glb를 불러와 여러 애니메이션효과를 넣을 수 있습니다.'
+    text : 'Camera, scene, light를 이용하여, 도형이나 glb를 불러와 여러 애니메이션효과를 넣을 수 있습니다.'
     }
 ]
 

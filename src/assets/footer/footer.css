@@ -1,6 +1,7 @@
 .footer{
     display: grid;
     place-items: center;
+    padding: 30px;
 }
 
 .footer h2{
@@ -40,7 +41,7 @@
     position: absolute;
     color: var(--main);
     bottom: 0;
-    right: 0;
+    right: 20px;
 }
 .footer div>a>img{
     filter: drop-shadow(-5px 5px 5px grey);
