@@ -76,7 +76,7 @@
     position: relative;
     left: 0;
 }
-@media screen and (max-width:1600px){
+@media screen and (max-width:1700px){
     .prolist {
         padding: 30px;
     }
