@@ -8,7 +8,7 @@
     ". . item3 item4 item5"
     ". item6 item7 item8 item9"
     "item10 item11 item12 item13 item14";
-    padding: 150px 0 0 450px;
+    padding:8vw 0 0 10vw;
     justify-items: center; /* 가로 방향 가운데 정렬 */
     align-items: center;   /* 세로 방향 가운데 정렬 */
 }
@@ -76,6 +76,39 @@ figure{
     grid-area: item14;
 }
 
+@media screen and (max-width:1600px){
+    .skillist{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "item1 item2 item3 item4"
+        "item5 item6 item7 item8"
+        "item9 item10 item11 ."
+        "item12 item13 . ."
+        "item14 . . ."; 
+        padding: 100px 10px;
+    }
+    .skillist img{
+        width: 30px;
+    }
+}
+@media screen and (max-width:1036px){
+    .skillist{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "item1 item2 item3"
+        "item4 item5 item6"
+        "item7 item8 item9"
+        "item10 item11 item12"
+        "item13 item14 .";
+        padding: 100px 10px;
+    }
+}
 @media screen and (max-width:768px){
     .skillist{
         display: grid;

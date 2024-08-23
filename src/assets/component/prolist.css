@@ -22,7 +22,7 @@
     display: flex;
     justify-content: right;
     gap: 45px;
-    padding: 15px 0;
+    padding: 15px;
 }
 .iconList>li>a>p{
     font-family: "Jacques Francois", serif;
@@ -76,12 +76,9 @@
     position: relative;
     left: 0;
 }
-
-@media screen and (max-width:768px){
-
+@media screen and (max-width:1600px){
     .prolist {
-        display: block;
-        padding: 10px;
+        padding: 30px;
     }
     .desk{
         width: 80%;
@@ -93,6 +90,28 @@
        height: auto;
        top: 130px;
        left: 20px;
+    }
+    .iconList{
+        padding-right: 13%;
+    }
+
+}
+@media screen and (max-width:1100px){
+
+    .prolist {
+        display: block;
+        padding: 10px;
+    }
+    .desk{
+        width: 80%;
+        height: auto;
+        margin-left: 80px;
+    }
+    .mobile{
+       width: 20%;
+       height: auto;
+       top: 80px;
+       left: 30px;
     }
     .iconList{
         padding: 20px 0;
@@ -124,9 +143,12 @@
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
+    .desk{
+        margin-left: 50px;
+    }
     .mobile{
-        width: 40%;
+        width: 25%;
         height: auto;
         top: 130px;
         left: 20px;

@@ -157,13 +157,13 @@ h3{
 /* skills start */
 
 .skills h2{
-    font-size: 220px;
+    font-size: 10vw;
     position: absolute;
     left: 0;
     top: 0;
 }
 .skills h3{
-    font-size: 128px;
+    font-size: 7vw;
     font-weight: 300;
     letter-spacing: -10px;
     position: absolute;
@@ -352,6 +352,14 @@ h3{
     .about article>div{
         width: 100%;
     }
+    .project h3{
+        left: 35%;
+        top: 35%;
+    }
+    .web h3{
+        right: 7%;
+        bottom: 20%;
+    }
 }
 
 /* 모바일 반응형 */
@@ -445,17 +453,14 @@ h3{
 }
 /* project start */
 .project h2{
-    font-size: 80px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    font-size: 15vw;
+    letter-spacing: -5px;
 }
 .project h3{
-    font-size: 70px;
-    left: 30%;
+    font-size: 12vw;
+    left: 35%;
     top: 40%;
-    letter-spacing: -7px;
-    transform: translate(-50%,-50%);
+    letter-spacing: -5px;
 
 }
 .project p{
@@ -467,7 +472,7 @@ h3{
 }
 
 .web h2{
-    font-size: 150px;
+    font-size: 40vw;
 }
 .web h3{
     font-size: 50px;
