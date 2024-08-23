@@ -104,11 +104,6 @@ CRUD 구현되어있습니다.`,
                     </div>
                         <div className='homepage'>
                         <ul className='iconList'>
-                            {/* <li>
-                                <a href={pro.mockup} target='_blank'><img src={mockupIcon} alt="mockup" />
-                                <p>mockup</p>
-                                </a>
-                            </li> */}
                             <li>
                                 <a href={pro.gitpage} target='_blank'><img src={gitIcon} alt="gitIcon" />
                                 <p>github</p>
@@ -146,11 +141,6 @@ CRUD 구현되어있습니다.`,
                     </div>
                         <div className='homepage'>
                         <ul className='iconList'>
-                            {/* <li>
-                                <a href={pro.mockup} target='_blank'><img src={mockupIcon} alt="mockup" />
-                                <p>mockup</p>
-                                </a>
-                            </li> */}
                             <li>
                                 <a href={pro.gitpage} target='_blank'><img src={gitIcon} alt="gitIcon" />
                                 <p>github</p>
