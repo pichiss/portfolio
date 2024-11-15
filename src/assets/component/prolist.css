@@ -29,6 +29,11 @@
     color: var(--main);
     text-align: center;
 }
+.iconList>li>a:hover>p{
+    text-decoration: underline;
+    text-decoration-color: var(--main);
+    text-decoration-thickness: 2px;
+}
 .homeTxt{
     width: 40%;
     display: flex;

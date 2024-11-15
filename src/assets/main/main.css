@@ -321,7 +321,7 @@ h3{
     .intro h2{
         font-size: 250px;
         letter-spacing: -20px;
-        line-height: 350px;
+        line-height: 300px;
     }
     .intro h3{
         font-family: "Parisienne";
@@ -374,17 +374,20 @@ h3{
         position: absolute;
         font-size: 25vw;
         letter-spacing: -10px;
+        
     }
     .intro .port{
         top: 15%;
         left: 10%;
+        line-height: 55vw;
     }    
     .intro .folio{
         top: 45%;
         left: 10%;
+        line-height: 55vw;
     }
     .intro h3{
-        font-size: 50px;
+        font-size: 12vw;
         letter-spacing: -1px;
         left: 20%;
         top: 45%;
@@ -499,5 +502,20 @@ h3{
 .siteHover h5{
     font-size: 20px;
 }
+
+}
+
+@media screen and (max-width:580px){
+    .intro .port{
+        top: 18%;
+        left: 10%;
+    }    
+
+}
+@media screen and (max-width:430px){
+    .intro .port{
+        top: 28%;
+        left: 10%;
+    }    
 
 }

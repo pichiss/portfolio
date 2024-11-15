@@ -5,9 +5,10 @@ import Team4 from '../img/proimg/image 151.png';
 import per1 from '../img/proimg/image 111.png';
 import per2 from '../img/proimg/image 112.png';
 import toy from '../img/proimg/todo.png';
-import mockupIcon from '../img/proimg/Group 89.png'
-import gitIcon from '../img/proimg/Group 90.png'
-import gopageIcon from '../img/proimg/Group 91.png'
+import mockupIcon from '../img/proimg/Group 89.png';
+import gitIcon from '../img/proimg/Group 90.png';
+import gopageIcon from '../img/proimg/Group 91.png';
+import figIcon from '../img/proimg/Group 92.png'
 
 import './prolist.css'
 
@@ -26,7 +27,7 @@ footer, 관광안내입니다.`,
             desk : Team1,
             mobile : Team2,
             moAlt : '고궁의 밤',
-            mockup : '',
+            figpage : 'https://www.figma.com/design/G5QKRS4K8CpxYMSDmYZsHh/Team_Period?node-id=0-1&t=laVQ5V7c1Q25DHfr-1',
             gitpage : 'https://github.com/JURAMII/Team_Period',
             gopage : 'https://juramii.github.io/Team_Period/'
         },
@@ -42,6 +43,7 @@ footer, 관광안내입니다.`,
             desk : Team3,
             mobile : Team4,
             moAlt : '캐치! 수학몬스터즈',
+            figpage : 'https://www.figma.com/design/w6E6pTVyVqKRQCMbFUFRUe/%EC%BA%90%EC%B9%98-%EC%88%98%ED%95%99%EB%AA%AC%EC%8A%A4%ED%84%B0?node-id=0-1&t=hFDIQZsdJnmVZv23-1',
             gitpage : 'https://github.com/pichiss/TeamMMs',
             gopage : 'https://pichiss.github.io/TeamMMs/'
             }
@@ -57,7 +59,7 @@ footer, 관광안내입니다.`,
 새롭게 만들어보았습니다.`,
         use : ['node.js', 'mySql'],
         desk : per1,
-        mockup : '',
+        figpage : 'https://www.figma.com/design/sLaNkKCNW0W1owPXl83eO2/%EC%A7%80%EC%BD%94%EB%B0%94-%EC%A7%9C%EC%A7%91%EA%B8%B0?node-id=0-1&t=NzOVG8WqxqxbmD6Y-1',
         gitpage : 'https://github.com/pichiss/gicova',
         gopage : 'https://pichiss.github.io/gicova/'
         },
@@ -70,7 +72,7 @@ footer, 관광안내입니다.`,
 CRUD 구현되어있습니다.`,
         use : ['react'],
         desk : per2,
-        mockup : '',
+        figpage : 'https://www.figma.com/design/4OaqVdIaxWLwoZRZVxTqLl/Untitled?node-id=0-1&t=EVn9iD7aQ81iSeJC-1',
         gitpage : 'https://github.com/pichiss/dictionary',
         gopage : 'https://pichiss.github.io/dictionary/'
             },
@@ -104,6 +106,11 @@ CRUD 구현되어있습니다.`,
                     </div>
                         <div className='homepage'>
                         <ul className='iconList'>
+                            <li>
+                                <a href={pro.figpage} target='_blank'><img src={figIcon} alt="figmaIcon" />
+                                <p>figma</p>
+                                </a>
+                            </li>
                             <li>
                                 <a href={pro.gitpage} target='_blank'><img src={gitIcon} alt="gitIcon" />
                                 <p>github</p>
@@ -141,6 +148,11 @@ CRUD 구현되어있습니다.`,
                     </div>
                         <div className='homepage'>
                         <ul className='iconList'>
+                            <li>
+                                <a href={pro.figpage} target='_blank'><img src={figIcon} alt="figmaIcon" />
+                                <p>figma</p>
+                                </a>
+                            </li>
                             <li>
                                 <a href={pro.gitpage} target='_blank'><img src={gitIcon} alt="gitIcon" />
                                 <p>github</p>
